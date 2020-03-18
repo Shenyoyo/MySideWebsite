@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+}
+nav > .logo{
+    flex:none;
+    width: 100px;
+    background-color:#ffcccc;
+}
+nav > .menu{
+    flex:auto;
+    background-color: #ccccff;
+    
+}
+nav > .user{
+    flex: none;
+    width:100px;
+    background-color:#ccffcc;
+}
+main{  /* 容器*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#cccccc;
+}
+main > .item{
+    flex: none;
+    width: 300px;
+    margin: 10px;
+    background-color:#ffcccc;
+}
